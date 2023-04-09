@@ -3,7 +3,7 @@ input = sys.stdin.readline
 
 suNo, quizNo = map(int, input().split())
 numbers= list(map(int,input().split()))
-prefix_sum =[0]
+prefix_sum =[0] #합 배열
 temp =0
 
 for i in numbers:
